@@ -3,6 +3,8 @@ ESC Boston eLua Presentation Files
 
 This repository contains a PDF of the latest slides used for the presentation as well as code.
 
+This documentation assumes use of a NUCLEO-F411RE board.  Others may work, but the steps below assume this board.  The ws2812 module is implemented for STM32F4 only. Other MCUs would require some porting.
+
 To build the same image used in the presentation prepare a build environment as described in the eLua documenation for [Windows](http://www.eluaproject.net/doc/master/en_building_win.html) or [Linux](http://www.eluaproject.net/doc/master/en_building_unix.html).
 
 Check the stm32f4-ws2812 branch of elua:
